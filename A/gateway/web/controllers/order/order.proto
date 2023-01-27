@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./order";
+
+package order;
+
+message Order {
+  int32 order_id = 1;
+  int32 price = 2;
+  string title = 3;
+}
